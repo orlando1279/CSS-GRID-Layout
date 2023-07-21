@@ -1,0 +1,29 @@
+.head {
+    width: 180px;
+    height: 200px;
+    background: var(--white);
+    border-radius: 50px;
+    position: relative;
+}
+.eye-left{
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: absolute;
+    top: 80px;
+    border-radius: 50px;
+    left: 30px; 
+}
+
+.block {
+    background: pink;
+    display: block;
+}
+.grid {
+    background: papayawhip;
+    display: inline-grid;
+}
+.flex {
+    background: purple;
+    display: inline-flex;
+}

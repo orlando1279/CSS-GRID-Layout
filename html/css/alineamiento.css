@@ -1,0 +1,89 @@
+#conten-bloque-margin {
+    width: 150px; /* Una longitud o auto */
+    height: 150px; /* Una longitud necesariamente */
+    border-top: red solid 1px; /* Evitar margin collapsing */
+    background-color: lightskyblue;
+}
+#bloque-margin {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0; /* X,Y */
+    font-size: inherit; /* Indiferente */
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+#conten-bloque-line-height {
+    width: 150px; /* Una longitud o auto */
+    height: 150px; /* Una longitud necesariamente */
+    line-height: 150px; /* Igual a height */
+    text-align: left; /* X */
+    background-color: lightskyblue;
+}
+#bloque-line-height {
+    display: inline-block; /* Imprescindible */
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: baseline; /* Y */
+    font-size: inherit; /* Debería ser inherit o 1em */
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#conten-bloque-table-cell {
+    display: table-cell; /* Imprescindible */
+    width: 150px; /* Una longitud necesariamente */
+    height: 150px; /* Una longitud necesariamente */
+    text-align: left; /* X */
+    vertical-align: top; /* Y */
+    background-color: lightskyblue;
+}
+#bloque-table-cell {
+    display: inline-block; /* Imprescindible inline-block para text-align */
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: inherit; /* Indiferente */
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#conten-bloque-position {
+    position: relative; /* Imprescindible */
+    width: 150px; /* Una longitud o auto */
+    height: 150px; /* Una longitud necesariamente */
+    background-color: lightskyblue;
+}
+#bloque-position {
+    position: absolute; /* Imprescindible */
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: inherit; /* Indiferente */
+    left: 0; /* X */
+    top: 0; /* Y */
+    transform: translate(0, 0); /* Reposicionar X,Y */
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#conten-bloque-flex {
+    display: flex; /* Imprescindible */
+    width: 150px; /* Una longitud o auto */
+    height: 150px; /* Una longitud necesariamente */
+    justify-content: flex-start; /* X */
+    align-items: flex-start; /* Y  (relacionado con align-self) */
+    background-color: lightskyblue;
+}
+#bloque-flex {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: inherit; /* Indiferente */
+    align-self: auto; /* Y (relacionado con align-items) */
+    text-align: center;
+    background-color: green;
+    color: white;
+}
